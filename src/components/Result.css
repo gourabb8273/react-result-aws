@@ -1,0 +1,18 @@
+.list{
+    margin: 4rem 12rem;
+    background: rgb(253, 246, 246);
+}
+.list_body{  
+    display: flex; 
+    background: rgb(245, 231, 225);
+    margin: 5px;
+}
+.list_header{
+    display: flex;
+    background: rgb(0, 0, 0);
+    color: white;
+    
+}
+.list_item{
+    flex: 2;
+}
