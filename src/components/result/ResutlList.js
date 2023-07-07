@@ -21,7 +21,7 @@ function ResultList({ list }) {
         <h3 className="list_item">Created Date</h3>
       </div>
       {list.length
-        ? list.map((r) => {
+        ? list.sort((a, b) => new Date(a.CREATED_DATE) - new Date(b.CREATED_DATE)).map((r) => {
             return (
               <div className="list_body">
                 <h4 className="list_item">{sl++}</h4>
