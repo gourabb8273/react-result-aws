@@ -31,7 +31,7 @@ function ResultList({ list }) {
               </div>
             );
           })
-        : null}
+        : <h1>No Content</h1>}
     </div>
   );
 }
