@@ -1,0 +1,18 @@
+.list {
+  width: 80%;
+  margin: 2rem 10rem;
+  background: rgb(255, 255, 255);
+}
+.list_body {
+  display: flex;
+  background: rgba(229, 229, 250, 0.342);
+  margin: 5px 0;
+}
+.list_header {
+  display: flex;
+  background: #414750;
+  color: white;
+}
+.list_item {
+  flex: 2;
+}
